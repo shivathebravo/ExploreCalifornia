@@ -1,0 +1,8 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server = (localdb)\\mssqllocaldb; Database = ExploreCalfornia; Trusted_Connection = True; "
+  },
+  "FeatureToggles": {
+    "EnableDeveloperExceptions": true
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=ExploreCalifornia;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "IdentityDataContext": "Server=(localdb)\\mssqllocaldb;Database=ExploreCalifornia_Identity;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "SpecialsDataContext": "Server=(localdb)\\mssqllocaldb;Database=ExploreCalifornia_Specials;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "Logging": {
+    "IncludeScopes": false
+  }
+}
