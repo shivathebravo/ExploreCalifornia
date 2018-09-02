@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <RuntimeIdentifiers>win10-x64</RuntimeIdentifiers>
     <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
+    <PublishWithAspNetCoreTargetManifest>false</PublishWithAspNetCoreTargetManifest> 
   </PropertyGroup>
 
   <ItemGroup>
