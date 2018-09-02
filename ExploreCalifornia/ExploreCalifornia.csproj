@@ -10,8 +10,6 @@
 
   <ItemGroup>
     <Compile Include="wwwroot\Program.cs" />
-    <Content Update="wwwroot\**\*" CopyToOutputDirectory="PreserveNewest" />
-
   </ItemGroup>
 
   <ItemGroup>
@@ -23,7 +21,6 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.1.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
-    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.ViewCompilation" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,6 +28,5 @@
       <Pack>$(IncludeRazorContentInPack)</Pack>
     </Content>
   </ItemGroup>
-
 
 </Project>
