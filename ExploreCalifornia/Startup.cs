@@ -35,6 +35,8 @@ namespace ExploreCalifornia
                 EnableDeveloperExceptions =
                     configuration.GetValue<bool>("FeatureToggles:EnableDeveloperExceptions")
             });
+
+
             services.AddDbContext<BlogDataContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
