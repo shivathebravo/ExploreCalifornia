@@ -13,6 +13,8 @@
 
   <ItemGroup>
     <Compile Include="wwwroot\Program.cs" />
+    <Content Update="wwwroot\**\*" CopyToOutputDirectory="PreserveNewest" />
+
   </ItemGroup>
 
   <ItemGroup>
