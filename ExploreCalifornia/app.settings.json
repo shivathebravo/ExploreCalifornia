@@ -1,10 +1,14 @@
 ﻿{
   "ConnectionStrings": {
-    "DefaultConnection": "server=SHIVA-PC\\SQLEXPRESS;Initial Catalog=ExploreCalifornia;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True",
-    "IdentityDataContext": "server=SHIVA-PC\\SQLEXPRESS;Initial Catalog=ExploreCalifornia_Identity;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True",
-    "SpecialsDataContext": "server=SHIVA-PC\\SQLEXPRESS;Initial Catalog=ExploreCalifornia_specials;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True"
+    "DefaultConnection": "server=SHIVA-PC\\SQLEXPRESS;Database =ExploreCalifornia;User Id=appuser;Password=password;MultipleActiveResultSets=true;Persist Security Info=True",
+    "IdentityDataContext": "server=SHIVA-PC\\SQLEXPRESS;Database =ExploreCalifornia_Identity;User Id=appuser;Password=password;MultipleActiveResultSets=true;Persist Security Info=True",
+    "SpecialsDataContext": "Server=SHIVA-PC\\SQLEXPRESS;Database =ExploreCalifornia_Specials;User Id=appuser;Password=password;MultipleActiveResultSets=true;Persist Security Info=True"
+
+
   },
   "Logging": {
     "IncludeScopes": false
   }
 }
+
+

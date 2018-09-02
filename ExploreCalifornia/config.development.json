@@ -1,6 +1,6 @@
 ﻿{
   "ConnectionStrings": {
-    "DefaultConnection": "Server = (localdb)\\mssqllocaldb; Database = ExploreCalfornia; Trusted_Connection = True; "
+    "DefaultConnection": "server=SHIVA-PC\\SQLEXPRESS;Database =ExploreCalifornia;User Id=appuser;Password=password;MultipleActiveResultSets=true;Persist Security Info=True"
   },
   "FeatureToggles": {
     "EnableDeveloperExceptions": true
