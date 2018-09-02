@@ -1,8 +1,8 @@
 ﻿{
   "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=ExploreCalifornia;Trusted_Connection=True;MultipleActiveResultSets=true",
-    "IdentityDataContext": "Server=(localdb)\\mssqllocaldb;Database=ExploreCalifornia_Identity;Trusted_Connection=True;MultipleActiveResultSets=true",
-    "SpecialsDataContext": "Server=(localdb)\\mssqllocaldb;Database=ExploreCalifornia_Specials;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "DefaultConnection": "server=SHIVA-PC\\SQLEXPRESS;Initial Catalog=ExploreCalifornia;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True",
+    "IdentityDataContext": "server=SHIVA-PC\\SQLEXPRESS;Initial Catalog=ExploreCalifornia_Identity;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True",
+    "SpecialsDataContext": "server=SHIVA-PC\\SQLEXPRESS;Initial Catalog=ExploreCalifornia_specials;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=False;TrustServerCertificate=True"
   },
   "Logging": {
     "IncludeScopes": false
