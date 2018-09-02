@@ -14,7 +14,7 @@
   <ItemGroup>
     <Compile Include="wwwroot\Program.cs" />
     <Content Update="wwwroot\**\*" CopyToOutputDirectory="PreserveNewest" />
-
+    <Content Update="Views\**\*" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <ItemGroup>
