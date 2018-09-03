@@ -2,8 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <PreserveCompilationContext>true</PreserveCompilationContext>
+  
     <MvcRazorCompileOnPublish>false</MvcRazorCompileOnPublish>
+   
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +13,7 @@
 
   <ItemGroup>
     <Compile Include="wwwroot\Program.cs" />
+  
   </ItemGroup>
 
   <ItemGroup>

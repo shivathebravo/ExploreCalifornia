@@ -21,6 +21,7 @@ namespace ExploreCalifornia
                                 .AddJsonFile(env.ContentRootPath + "/config.json")
                                 .AddJsonFile(env.ContentRootPath + "/config.development.json", true)
                               .AddJsonFile(env.ContentRootPath + "/app.settings.json", optional: false, reloadOnChange: true)
+
                                 .Build();
         }
 
@@ -91,6 +92,7 @@ namespace ExploreCalifornia
             });
 
             app.UseFileServer();
+            app.UseStaticFiles();
 
         }
     }
