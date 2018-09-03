@@ -8,17 +8,9 @@
   },
   "Logging": {
     "IncludeScopes": false
-  },
-
-  "publishOptions": {
-    "include": [
-      "Views",
-      "web.config",
-      "wwwroot",
-      "appsettings.json",
-      "config.json"
-    ]
   }
+
+  
 }
 
 
