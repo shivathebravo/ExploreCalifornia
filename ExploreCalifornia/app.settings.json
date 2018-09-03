@@ -8,6 +8,14 @@
   },
   "Logging": {
     "IncludeScopes": false
+  },
+
+  "publishOptions": {
+    "include": [
+      "Views",
+      "web.config",
+      "wwwroot"
+    ]
   }
 }
 
