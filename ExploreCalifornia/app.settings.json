@@ -14,7 +14,9 @@
     "include": [
       "Views",
       "web.config",
-      "wwwroot"
+      "wwwroot",
+      "appsettings.json",
+      "config.json"
     ]
   }
 }
